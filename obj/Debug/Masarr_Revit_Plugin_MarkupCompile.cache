@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\
+C:\Users\ahmed\Source\Repos\Masar_Revit_Plugin\obj\Debug\
 Masarr_Revit_Plugin
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 1219584333
 
-4-1650409008
+5271369113
 151665652090
 MainWindow.xaml;
 
-False
+True
 
