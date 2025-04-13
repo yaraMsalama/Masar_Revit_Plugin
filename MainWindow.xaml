@@ -27,8 +27,12 @@
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="2">
             <Button Content="Generate Columns and axis view" Width="300" Height="30" BorderBrush="Red" BorderThickness="2"
                     Background="Azure" Margin="60" FontSize="15"  HorizontalAlignment="Center"/>
-            <Button Content="Generate    Sheets" Width="300" Height="30" Background="Azure" HorizontalAlignment="Center"  BorderBrush="Red" BorderThickness="2" FontSize="15"  />
+            <Button Content="Generate structural Sheets" Width="300" Height="30" Background="Azure" HorizontalAlignment="Center"  BorderBrush="Red" BorderThickness="2" FontSize="15"  />
         </StackPanel>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Welcome " HorizontalAlignment="Center" >
+            
+        </TextBlock>
 
     </Grid>
 </Window>
