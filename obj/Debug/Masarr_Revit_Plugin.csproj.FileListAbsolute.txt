@@ -1,0 +1,13 @@
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\bin\Debug\Masarr_Revit_Plugin.dll
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\bin\Debug\Masarr_Revit_Plugin.pdb
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.csproj.AssemblyReference.cache
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\MainWindow.g.cs
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin_MarkupCompile.cache
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin_MarkupCompile.lref
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\MainWindow.baml
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.g.resources
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.Properties.Resources.resources
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.csproj.GenerateResource.cache
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.csproj.CoreCompileInputs.cache
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.dll
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.pdb
