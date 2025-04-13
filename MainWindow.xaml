@@ -30,7 +30,7 @@
             <Button Content="Generate structural Sheets" Width="300" Height="30" Background="Azure" HorizontalAlignment="Center"  BorderBrush="Red" BorderThickness="2" FontSize="15"  />
         </StackPanel>
 
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="Welcome " HorizontalAlignment="Center" >
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="“There is no innovation and creativity without failure. Period.” —Brené Brown " HorizontalAlignment="Center" Foreground="White" >
             
         </TextBlock>
 
