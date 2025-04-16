@@ -11,3 +11,4 @@ C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.cs
 C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.csproj.CoreCompileInputs.cache
 C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.dll
 C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Masarr_Revit_Plugin.pdb
+C:\Users\ts\Source\Repos\Masar_Revit_Plugin\new\obj\Debug\Views\MainWindow.g.cs

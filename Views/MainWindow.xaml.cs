@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Linq;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Masarr_Revit_Plugin.ViewModels;
+using Masarr_Revit_Plugin.Views;
 
-namespace Masarr_Revit_Plugin
+namespace Masarr_Revit_Plugin.Views
+
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,6 +26,7 @@ namespace Masarr_Revit_Plugin
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel(); 
         }
     }
 }
