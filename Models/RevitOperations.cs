@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Masarr_Revit_Plugin.Models
 {
-    public class RevitOperations
+    public class RevitOperations : IExternalApplication
     {
         private readonly Document _document;
         private readonly UIDocument _uiDocument;
@@ -44,6 +44,16 @@ namespace Masarr_Revit_Plugin.Models
                 .OfClass(typeof(Level))
                 .Cast<Level>()
                 .ToList();
+        }
+
+        public Result OnStartup(UIControlledApplication application)
+        {
+            return Result.Succeeded;
+        }
+
+        public Result OnShutdown(UIControlledApplication application)
+        {
+            return Result.Succeeded;
         }
     }
 }
