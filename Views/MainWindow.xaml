@@ -5,34 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Masarr_Revit_Plugin.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600" Background="#2e3033">
+        Title="Masar Plugin" Height="450" Width="600" Background="#2e3033">
     <Grid>
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="100"/>
         </Grid.ColumnDefinitions>
-
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition Height="250"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <!--to make header-->
-        <TextBlock Grid.Row=" 0" Grid.Column="1"  Text="Masar Plugin" 
-                   FontSize="30" FontWeight="Bold" 
-                   FontStyle="Italic" VerticalAlignment="Center" HorizontalAlignment="Center"
+        <!-- header -->
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Masar Plugin" 
+                   FontSize="30" FontWeight="Bold" FontStyle="Italic" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center"
                    Background="White" Foreground="Red" Padding="20"/>
+        <!-- buttons -->
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="2">
-            <Button Content="Generate Columns and axis view" Width="300" Height="30" BorderBrush="Red" BorderThickness="2"
-                    Background="Azure" Margin="60" FontSize="15"  HorizontalAlignment="Center"/>
-            <Button Content="Generate structural Sheets" Width="300" Height="30" Background="Azure" HorizontalAlignment="Center"  BorderBrush="Red" BorderThickness="2" FontSize="15"  />
+            <Button Content="Generate Columns and Axis View" Width="300" Height="30" 
+                    BorderBrush="Red" BorderThickness="2" Background="Azure" 
+                    Margin="60" FontSize="15" HorizontalAlignment="Center"
+                    Command="{Binding CreateColumnsAxisCommand}"/>
+            <Button Content="Generate Structural Sheets" Width="300" Height="30" 
+                    BorderBrush="Red" BorderThickness="2" Background="Azure" 
+                    Margin="60" FontSize="15" HorizontalAlignment="Center"
+                    Command="{Binding GenerateSheetsCommand}"/>
         </StackPanel>
-
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="“There is no innovation and creativity without failure. Period.” —Brené Brown " HorizontalAlignment="Center" Foreground="White" >
-            
-        </TextBlock>
-
+        <TextBlock Grid.Row="2" Grid.Column="1" 
+                   Text="“There is no innovation and creativity without failure. Period.” —Brené Brown" 
+                   HorizontalAlignment="Center" Foreground="White" TextWrapping="Wrap"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding StatusMessage}" 
+                   VerticalAlignment="Bottom" HorizontalAlignment="Center" 
+                   Foreground="Red" FontSize="12" Margin="0,0,0,10"/>
     </Grid>
 </Window>
