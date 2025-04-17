@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Masarr_Revit_Plugin.ViewModels
+namespace Masarr_Revit_Plugin.App.Commands
 {
-    public class MainViewModel : ViewModelBase
+    internal class Col_axis
     {
     }
 }

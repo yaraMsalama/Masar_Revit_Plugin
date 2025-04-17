@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Autodesk.Revit.UI;
 using Masarr_Revit_Plugin.ViewModels;
 using Masarr_Revit_Plugin.Views;
 
@@ -23,10 +24,10 @@ namespace Masarr_Revit_Plugin.Views
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(ExternalCommandData commandData)
         {
             InitializeComponent();
-            DataContext = new MainViewModel(); 
+            DataContext = new ViewModels.MainViewModel(commandData);
         }
     }
 }

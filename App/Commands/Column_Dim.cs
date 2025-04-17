@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Masarr_Revit_Plugin.ViewModels
+namespace Masarr_Revit_Plugin.App
 {
-    public class MainViewModel : ViewModelBase
+    internal class Column_Dim
     {
     }
 }
